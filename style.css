@@ -82,7 +82,8 @@ h3{
     background-color: rgb(180, 175, 175);
 }
 #write{
-    color: white; 
+    color: white;
+    margin-bottom: 50px;
 }
 @media(max-width:720px){
     body{
