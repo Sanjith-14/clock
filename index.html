@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Img/clock.png">
+</head>
+<body>
+    <h1 id="head">Clock</h1>
+    <h3>The Current Time is <br><br>
+    <span id="clock">Clock time</span>
+    </h3>
+    <br><br>
+    <img id="image" src="Img/gm.jpg">
+    <br><br><br><br><br>
+    <center>
+        <button onclick="motive()" id="button">Motivate</button>
+        <button onclick="happytosad()" id="button1">Sad to Happy</button>
+    </center>
+    <br><br>
+    <center>
+        <h3 class="just" style="color: deepskyblue;"><u>Want to set an alarm </u>:) !!</h3>
+    </center>
+    <br><br><br>
+    <center>
+        <select id="alarmhour">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <select id="alarmmin">
+            <option value="00">00</option>
+            <option value="05">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+        </select>
+        <select id="meridian">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+    </center>
+    <br><br>
+    <center>
+    <button class="button" type="submit" onclick="alarm()">Submit</button>
+    <button class="button" type="submit" onclick="stop()">Stop</button>
+    </center>
+    <audio id="music" src="Img/alarm.wav"></audio>
+    <script src="script.js"></script>
+    <h3 id="write"></h3>
+</body>
+</html>
